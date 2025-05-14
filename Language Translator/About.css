@@ -1,0 +1,49 @@
+.service {
+    /* background-image: url('bck.png'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    background: white;
+    border-top-left-radius: 55% 20%;
+
+}
+
+.service-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+
+.service-container .service-box {
+    float: 1 1 30rem;
+    /* background: var(--bg-color); */
+background-color:  rgb(96, 11, 11);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid black;
+    transition: .5s ease;
+}
+
+.service-container .service-box:hover {
+    border-color: var(--main-color);
+    transform: scale(1.02);
+}
+
+.service-box i {
+    font-size: 7rem;
+    color: var(--main-color);
+}
+
+.service-box h3 {
+    font-size: 2.6rem;
+    color: rgba(255, 255, 255, 0.683);
+}
+
+.service-box p {
+    font-size: 1.6rem;
+    margin: 1rem 0 3rem;
+    color: rgb(161, 130, 130);
+}

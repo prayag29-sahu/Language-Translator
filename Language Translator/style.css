@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image: url("bck.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.container img{
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 88%;
+    margin: auto;
+    padding: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.navbar ul li a:hover{
+    background-color: rgb(137, 32, 32);
+    color: white;
+    border-radius: 35%;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+.left-col{
+    margin-left: 6%;
+}
+.left-col h1{
+    font-size: 70px;
+    color: black;
+    line-height: 70px;
+    float: left;
+}
+.left-col h1 span{
+    color: rgb(137, 32, 32);
+}
+.left-col h1 p{
+    font-size: 18px;
+    color:black ;
+    font-weight: 400;
+    margin-right: 15px;
+}
+#icon{
+    width: 80px;
+    cursor: pointer;
+}
+
+/* sign up & login */
+
+
+.container1{
+    position: relative;
+    bottom: -9%;
+    left: 53%;
+    width: 700px;
+    height: 189px;
+    background-position: center;
+    background: transparent;
+    background-size: 690px 546px;
+    border-radius: 4%;
+}
+.container1 h1{
+    font-size: 35px;
+    display: inline;
+    position: relative;
+    top: 4%;
+    color: black;
+    left: -10%;
+}
+.container1 form{
+    margin: 54px;
+}
+.container1 input{
+    padding: 2px 14px;
+    margin: 11px;
+    width: 350px;
+    height: 49px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+.container1 textarea{
+    padding: 2px 14px;
+    margin: 11px;
+    width: 350px;
+    height: 49px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    background-color: rgba(255, 255, 255, 0.3)
+}
+.container1 button{
+    background-color: rgb(244, 31, 31);
+    /* border-radius: 0px; */
+    font-size: 25px;
+    position: relative;
+    left: -11%;
+    cursor: pointer;
+    top: -72%;
+    margin: 93px;
+
+}
+
+button:hover{
+    background-color: rgb(61, 187, 233);
+}
+.line{
+    padding: 0%;
+    background-color: rgb(53, 52, 52);
+    margin: auto;
+    width: 1520px;
+    height: 7px;
+}
+
